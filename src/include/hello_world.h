@@ -5,7 +5,7 @@
 
 namespace hello_world {
 
-std::string hello();
+std::string hello( const std::string who_ = "World" );
 
 } // namespace hello_world
 

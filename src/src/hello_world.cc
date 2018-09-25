@@ -4,8 +4,8 @@
 
 namespace hello_world {
 
-std::string hello() {
-    return "Hello World!";
+std::string hello( std::string who_ ) {
+    return "Hello " + who_+"!";
 }
 
 } // namespace hello_world
